@@ -1,0 +1,17 @@
+h1{background-color: rgb(24, 185, 24)
+}
+
+body{background-color: rgb(8, 139, 8)
+}
+a:hover{
+    color: rgb(204, 7, 7)
+}
+img:hover{
+    width: 320px;
+    height: 320px;
+}    
+a:link{
+ color: rgb(13, 178, 228) 
+}
+
+
