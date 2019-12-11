@@ -2,11 +2,17 @@
     margin: auto;
     padding-top: 15px;
 }
-h1{background-color: rgb(24, 185, 24);
+h1{background-color: rgb(25, 161, 25);
     text-align: center;
+    font-family: fantasy;
+ font-size: 20px;
+ position: fixed;
+ top:0px;
+left:300px;
+width:50%;
 }
 
-body{background-color: rgb(8, 139, 8)
+body{background-color: rgb(151, 73, 9)
 }
 a:hover{
     color: rgb(204, 7, 7)
@@ -16,11 +22,11 @@ img:hover{
     height: 320px;
 }    
 a:link{
- color: rgb(13, 178, 228) 
+ color: rgb(25, 161, 25);
 }
 p{
     margin: 5px;
-    border: 5px solid saddlebrown;
+    border: 5px solid rgb(25, 161, 25);
     text-align: center;
 }
 iframe{
@@ -28,5 +34,55 @@ iframe{
     border: 5px solid saddlebrown;
     padding: 12px
 }
-
+.cuadro1{
+ border: black solid;
+ width: 20%;
+ height: 20%;
+ background-color: rgba(25, 161, 25, 0.9);
+ padding: 40px;
+ 
+ font-family: fantasy;
+ font-size: 20px;
+ position: static;
+}
+.cuadro2{
+ border: black solid;
+ width: 20%;
+ height: 20%;
+ background-color: rgba(41, 218, 25, 0.9);
+ padding: 40px;
+ 
+ font-family: fantasy;
+ font-size: 20px;
+ position: relative;
+ top:20px;
+ left: 50px;
+}
+.cuadro3{
+image:"imagenes" src="imagenes/xd/FREE.jpg" width="250px" height="250px";
+ border:rgba(218, 122, 12, 0.534) solid;
+ width: 20%;
+ height: 20%;
+ background-color: rgba(212, 52, 12, 0.9);
+ padding: 40px;
+ 
+ font-family: fantasy;
+ font-size: 20px;
+ position: fixed;
+ bottom:40px;
+ right:30px;
+}
+.cuadro4{
+ border: rgba(218, 122, 12, 0.534) solid;
+ width: 20%;
+ height: 20%;
+ background-color: rgba(7, 111, 230, 0.9);
+ padding: 40px;
+ 
+ font-family: fantasy;
+ font-size: 20px;
+ position: absolute;
+ top:40px;
+ right:40px;
+}
 
