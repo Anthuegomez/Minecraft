@@ -17,7 +17,7 @@ body{background-color: rgb(151, 73, 9)
 a:hover{
     color: rgb(204, 7, 7)
 }
-img:hover{
+#img:hover{
     width: 320px;
     height: 320px;
 }    
@@ -85,4 +85,18 @@ image:"imagenes" src="imagenes/xd/FREE.jpg" width="250px" height="250px";
  top:40px;
  right:40px;
 }
-
+#imga:hover{
+    transition-duration: 1.5s;
+    transition-timing-function: linear;
+    transform: rotateY(180deg) scale(1.2);
+    filter: grayscale(80%);
+    transition-delay: 0.5s;
+}
+#imgo{
+    transition-duration: 1.5s;
+    transition-timing-function: linear;
+    transform: rotateX(-150deg) scale(1.2);
+    filter: invert(85%);
+    transition-delay: 0.5s;
+    translate: x(800px);
+}
