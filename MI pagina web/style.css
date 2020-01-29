@@ -92,11 +92,75 @@ image:"imagenes" src="imagenes/xd/FREE.jpg" width="250px" height="250px";
     filter: grayscale(80%);
     transition-delay: 0.5s;
 }
-#imgo{
+#imgo:hover{
     transition-duration: 1.5s;
     transition-timing-function: linear;
     transform: rotateX(-150deg) scale(1.2);
     filter: invert(85%);
     transition-delay: 0.5s;
     translate: x(800px);
+}
+.cuadro3{
+   animation-name: MiAnimacion;
+   animation-duration: 2000ms;
+   animation-delay: 1s;
+   animation-timing-function: ease-in;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+}
+.cuadro2{
+    animation-name: MiAnimacion2;
+    animation-duration: 0.5s;
+    animation-delay: 0s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    
+}
+.cuadro1{
+    animation-name: MiAnimacion3;
+    animation-duration: 1s;
+    animation-delay: 0ms;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+iframe{
+    animation-name: MiAnimacion4;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    animation-iteration-count: 1;
+    animation-delay: 1s
+}
+@keyframes MiAnimacion{
+from{
+
+}
+to{
+    transform: rotateZ(120deg)
+}
+}
+@keyframes MiAnimacion2{
+    from{
+
+    }
+    to{
+        transform: rotateZ(360deg)
+    }  
+}
+@keyframes MiAnimacion3{
+    from{
+
+    }
+    to{
+       
+        transform: scale(.360,.360)
+    }  
+}
+@keyframes MiAnimacion4{
+   from{
+    transform: rotateY(200deg) 
+   } 
+   to{
+       transform:rotateX(360deg)
+   }
 }
